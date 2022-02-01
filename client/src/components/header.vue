@@ -48,7 +48,7 @@
 </script>
 
 <style scoped>
-    .header_wrap {position: fixed;top: 0;left: 0;width: 100%;height: 93px;display: block;background: #fff; box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16); border-bottom: 1px solid #011557; z-index:500}
+    .header_wrap {position: fixed; top: 0;left: 0;width: 100%;height: 93px;display: block;background: #fff; box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16); border-bottom: 1px solid #011557; z-index:500}
     .header {position:relative;display:block;width: 1400px;height: 80px;margin: 0 auto;}
 
     .header .logo_wrap {position:relative;top:0;left:0;display:block;width: 100%; z-index: 600;}

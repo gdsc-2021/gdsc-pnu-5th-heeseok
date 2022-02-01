@@ -1,0 +1,73 @@
+<template>
+    <div class="footer_wrap">
+        <div class="footer">
+            <div class="logo_wrap">
+                <router-link to='/'>
+                <ul class="logo">
+                    <li class="logo_img">
+                        <img alt="Vue logo" src="../assets/google.png">
+                    </li>
+                    <li class="logo_txt">
+                        <div></div>
+                    </li>
+                </ul>
+                </router-link>
+            </div>
+            <div class="navi-wrap">
+                <ul class="navi">
+                    <li class="nm-mn1">
+                        <router-link to='/introduce'>
+                            GDSC PNU 소개
+                        </router-link>
+                    </li>
+                    <li class="nm-mn1">
+                        <a href="#">
+                            구성원 소개
+                        </a>
+                    </li>
+                    <li class="nm-mn1">
+                        <a href="#">
+                            활동 내용
+                        </a>
+                    </li>
+                    <li class="nm-mn1">
+                        <a href="#">
+                            참여 신청
+                        </a>
+                    </li>
+                </ul>
+            </div>   
+        </div>
+        <div class="foot_copy">
+            Copyrights reserved by Google Developer Students Clubs Pusan National Univ.
+        </div> 
+    </div>    
+</template>
+
+<script>
+    export default {
+        name: 'Footer',
+    }
+</script>
+
+<style scoped>
+    .footer_wrap {position: absolute;bottom: 0; left:0;width: 100%;height: 250px;display: block;background: #f4f4f4;}
+    .footer {position:relative;display:block;width: 1400px;height: 200px;margin: 0 auto;}
+
+    .footer .logo_wrap {position:relative;top:0;left:0;display:block;width: 100%; z-index: 600;}
+
+    .footer .logo_wrap .logo {display: block;text-align: center; float: left;}
+    .footer .logo_wrap .logo li {position: relative;display: inline-block;vertical-align:middle;padding: 0 8px;}
+    .footer .logo_wrap .logo li.logo_img img {display: block;height:80px;line-height:80px; margin:20px 0 0 50px;}
+    .footer .logo_wrap .logo li.logo_txt div {display: block;color:#808080;font-size:20px;line-height:80px;}
+
+    .footer .navi-wrap {position:absolute;top:0;left:0;display:block;width: 100%;}
+
+    .footer .navi {display: block;text-align: center; float: right; margin:40px 0 0 0;}
+    .footer .navi li.nm-mn1 {position: relative;display: inline-block;vertical-align:top;padding: 0 20px;}
+    .footer .navi li.nm-mn1 a {position: relative;display:block;color:#808080;font-size:17px;font-weight: 600;line-height:80px;height: 80px;text-align: center; text-decoration: none;}
+    .footer .navi li.nm-mn1 .router-link-active {color:#4285f4}
+
+    .footer .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
+
+</style>

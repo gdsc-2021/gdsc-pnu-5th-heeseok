@@ -1,5 +1,4 @@
 <template>
-  
     <div class="container_wrap">
       <div class="contents_wrap">
         <div class="box_group_01">
@@ -30,9 +29,7 @@
           </div> 
         </div>
       </div>
-    </div>
-  
-    
+    </div>   
 </template>
 
 <script>
@@ -48,7 +45,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container_wrap {position: relative;display: block; margin-top: 93px;}
+  .container_wrap {position: relative;display: block; margin-top: 93px; padding-bottom: 250px;}
   .contents_wrap {position: relative;display: block;background: #f9f9f9;width: 1400px;margin:0 auto;}
 
   .box_group_01 {float:left;}
