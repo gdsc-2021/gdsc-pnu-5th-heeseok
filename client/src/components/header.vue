@@ -63,6 +63,7 @@
     .header .navi {display: block;text-align: center; float: right;}
     .header .navi li.nm-mn1 {position: relative;display: inline-block;vertical-align:top;padding: 0 20px;}
     .header .navi li.nm-mn1 a {position: relative;display:block;color:#808080;font-size:20px;font-weight: 600;line-height:80px;height: 80px;text-align: center; text-decoration: none;}
+    .header .navi li.nm-mn1 a:hover {color:#4285f4}
     .header .navi li.nm-mn1 .router-link-active {color:#4285f4}
 
 </style>
