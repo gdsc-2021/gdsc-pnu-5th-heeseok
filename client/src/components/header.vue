@@ -8,7 +8,7 @@
                         <img alt="Vue logo" src="../assets/google.png">
                     </li>
                     <li class="logo_txt">
-                        <div>Developer Students Club Pusan National Univ</div>
+                        <div>Google Developer Students Club Pusan National Univ</div>
                     </li>
                 </ul>
                 </router-link>
