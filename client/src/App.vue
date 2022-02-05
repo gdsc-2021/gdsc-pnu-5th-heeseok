@@ -33,5 +33,5 @@ export default {
   color: #2c3e50;
 }
 
-.doc_wrap{position:relative;overflow:hidden;min-width:1400px;min-height: 100%;padding-bottom: 250px;}
+.doc_wrap{position:relative;overflow:hidden;min-width:100%;min-height: 100%;}
 </style>
