@@ -1,5 +1,14 @@
 <template>
   <div class="container_wrap">
+      <div class="deco_img01">
+        <img alt="deco line 01" src="../assets/deco_line_01.png" />
+      </div>
+      <div class="deco_img03">
+        <img alt="deco line 03" src="../assets/deco_line_03.png" />
+      </div>
+      <div class="deco_img04">
+        <img alt="deco line 04" src="../assets/deco_line_04.png" />
+      </div>
       <div class="contents_wrap">
         <div class="box_group_01">
           <div class="box01">
@@ -37,11 +46,11 @@
                 Google Developer Students Club PNU Chapter입니다.
               </div>
               <div class="plain_text">
-                이곳에는 Google Developer Students Club 소개 및 GDSC PNU 소개가 들어갈 예정입니다~!<br />
-                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구<br />
-                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구<br />
-                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구<br />
-                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구<br />
+                이곳에는 Google Developer Students Club 소개 및 GDSC PNU 소개가 들어갈 예정입니다~!
+                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
+                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
+                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
+                어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
                 어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
               </div>
             </div>
@@ -81,32 +90,47 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container_wrap {position: relative;display: block; margin-top: 93px; overflow: hidden; padding-bottom: 250px;}
-  .contents_wrap {position: relative;display: block;background: #f9f9f9;width: 1400px;margin:0 auto;}
+  .container_wrap {position: relative;display: block; overflow: hidden; padding-bottom: 394px;}
+  .contents_wrap {position: relative;display: block;width: 1400px;margin:93px auto;}
+
+  .container_wrap .deco_img01 {position:absolute; margin:0; padding:0;}
+  .container_wrap .deco_img01 img {width:483px; height:499.6px;}
+
+  .container_wrap .deco_img03 {position:absolute; margin:703px 0 0 0; padding:0;}
+  .container_wrap .deco_img03 img {width:1920; height:338.3px;}
+
+  .container_wrap .deco_img04 {position:absolute; margin:1267.4px 0 0 calc(100% - 482px); padding:0;}
+  .container_wrap .deco_img04 img {width:482px; height:499.6px;}
+
+  @media screen and (max-width: 1800px) {
+    .container_wrap .deco_img01 {display: none;}
+    .container_wrap .deco_img03 {display: none;}
+    .container_wrap .deco_img04 {display: none;}
+  }
 
   .box_group_01 {float:left;width:700px;}
-  .box01 {height: 300px; text-align: left;}
-  .box01 div.visual img{margin:50px 0 0 80px; width:60%; height:60%;}
+  .box01 {height: 400px; text-align: left; margin:137px 0 0 80px;}
+  .box01 div.visual img{ width:555px; height:263px;}
 
-  .box03 {height: 300px;}
-  .box03 div.main_text {text-align: left; padding:50px 0 0 80px;}
+  .box03 {height: 300px; }
+  .box03 div.main_text {text-align: left; padding:5px 0 0 80px;}
   .box03 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold; }
   .box03 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:10px;}
 
-  .box05 {height: 400px;text-align: left;}
-  .box05 div.visual img{margin:100px 0 0 80px; width:50%; height:50%;}
+  .box05 {height: 300px;text-align: left; margin:397.3px 0 0 80px;}
+  .box05 div.visual img{ width:405px; height:227.5px;}
 
   .box_group_02 {float:left;width:700px;}
-  .box02 {height: 300px;}
-  .box02 div.main_text {text-align: left; padding:50px 50px 0 0;}
+  .box02 {height: 400px; margin:137px 0 0 0;}
+  .box02 div.main_text {text-align: left; padding:5px 50px 0 0;}
   .box02 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold;}
   .box02 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:10px;}
 
-  .box04 {height: 300px; text-align: right;}
-  .box04 div.visual img{margin:50px 80px 0 0; width:60%; height:60%;}
+  .box04 {height: 300px; margin-top: 167px 80px 0 0; text-align: right;}
+  .box04 div.visual img{width:555px; height:263px;}
 
-  .box06 {height: 400px;}
-  .box06 div.main_text {text-align: left; padding:150px 0 0 0;}
+  .box06 {height: 300px; width: 850px; margin:397.3px 0 0 0;}
+  .box06 div.main_text {text-align: left; padding:44.7px 0 44.7px 0;}
   .box06 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold;}
-  .box06 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:10px;}
+  .box06 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:20px;}
 </style>
