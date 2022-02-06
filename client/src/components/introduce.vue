@@ -96,7 +96,7 @@ export default {
   .container_wrap .deco_img01 {position:absolute; margin:0; padding:0;}
   .container_wrap .deco_img01 img {width:483px; height:499.6px;}
 
-  .container_wrap .deco_img03 {position:absolute; margin:703px 0 0 0; padding:0;}
+  .container_wrap .deco_img03 {position:absolute; margin:796px 0 0 0; padding:0;}
   .container_wrap .deco_img03 img {width:1920; height:338.3px;}
 
   .container_wrap .deco_img04 {position:absolute; margin:1267.4px 0 0 calc(100% - 482px); padding:0;}
@@ -112,12 +112,12 @@ export default {
   .box01 {height: 400px; text-align: left; margin:137px 0 0 80px;}
   .box01 div.visual img{ width:555px; height:263px;}
 
-  .box03 {height: 300px; }
-  .box03 div.main_text {text-align: left; padding:5px 0 0 80px;}
+  .box03 {height: 300px; margin: 67px 0 0 0;}
+  .box03 div.main_text {text-align: left; padding:10px 0 0 80px;}
   .box03 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold; }
-  .box03 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:10px;}
+  .box03 div.main_text .plain_text{color:#5c5c5c; font-size: 15px;}
 
-  .box05 {height: 300px;text-align: left; margin:397.3px 0 0 80px;}
+  .box05 {height: 300px;text-align: left; margin:377.3px 0 0 80px;}
   .box05 div.visual img{ width:405px; height:227.5px;}
 
   .box_group_02 {float:left;width:700px;}
@@ -126,10 +126,10 @@ export default {
   .box02 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold;}
   .box02 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:10px;}
 
-  .box04 {height: 300px; margin-top: 167px 80px 0 0; text-align: right;}
+  .box04 {height: 300px; margin: 67px 0 0 0;}
   .box04 div.visual img{width:555px; height:263px;}
 
-  .box06 {height: 300px; width: 850px; margin:397.3px 0 0 0;}
+  .box06 {height: 300px; width: 850px; margin:377.3px 0 0 0;}
   .box06 div.main_text {text-align: left; padding:44.7px 0 44.7px 0;}
   .box06 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold;}
   .box06 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:20px;}
