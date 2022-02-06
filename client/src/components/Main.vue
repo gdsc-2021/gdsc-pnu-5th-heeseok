@@ -3,6 +3,9 @@
       <div class="deco_img01">
         <img alt="deco line 01" src="../assets/deco_line_01.png" />
       </div>
+      <div class="deco_img02">
+        <img alt="deco line 02" src="../assets/deco_line_02.png" />
+      </div>
       <div class="contents_wrap">
         <div class="box_group_01">
           <div class="box01">
@@ -34,9 +37,6 @@
           </div> 
         </div>
       </div>
-      <div class="deco_img02">
-        <img alt="deco line 02" src="../assets/deco_line_02.png" />
-      </div>
     </div>   
 </template>
 
@@ -59,7 +59,7 @@ export default {
   .container_wrap .deco_img01 {position:absolute; margin:0; padding:0;}
   .container_wrap .deco_img01 img {width:483px; height:499.6px;}
 
-  .container_wrap .deco_img02 {position:absolute; margin:684.2px 0 0 calc(100% - 1131.5px); padding:0;}
+  .container_wrap .deco_img02 {position:absolute; margin:777.2px 0 0 calc(100% - 1131.5px); padding:0;}
   .container_wrap .deco_img02 img {width:1131.5px; height:292.8px;}
 
   @media screen and (max-width: 1800px) {
