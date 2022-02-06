@@ -56,10 +56,10 @@ export default {
 
   .box_group_02 {float:left; width:1000px;}
   .box02 {margin:0 0 0 50px; width:950px;height:400px; box-shadow: 0 20px 10px -10px rgba(11, 11, 11, 0.16);border-bottom: 3px solid #707070;}
-  .box02 div.main_text{text-align: left; font-size:40px; padding:240px 0 0 10px;}
+  .box02 div.main_text{text-align: left; font-size:40px; padding:220px 0 0 10px;}
   .box02 div.sub_text a{color:#2e2d2d; text-decoration: none;}
-  .box02 div.sub_text p{font-size:35px;float:right;margin:10px 10px 0 0;}
-  .box02 div.sub_text img{float:right; width:40px; height:40px; margin:16px 0 0 0;}
+  .box02 div.sub_text p{font-size:35px;float:right;margin:30px 10px 0 0; text-shadow: 4px 4px 4px rgba(11, 11, 11, 0.16);}
+  .box02 div.sub_text img{float:right; width:40px; height:40px; margin:36px 0 0 0;}
   
   .box04 {height:300px;}
 </style>
