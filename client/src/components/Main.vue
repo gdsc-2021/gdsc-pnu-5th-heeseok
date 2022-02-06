@@ -45,7 +45,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container_wrap {position: relative;display: block; margin-top: 93px;height:700px; margin-bottom: 250px;}
+  .container_wrap {position: relative;display: block; margin-top: 93px;overflow: hidden; padding-bottom: 250px;}
   .contents_wrap {position: relative;display: block;background: #f9f9f9;width: 1400px;margin:0 auto;}
 
   .box_group_01 {float:left;}
@@ -54,9 +54,9 @@ export default {
 
   .box03 {height:300px;}
 
-  .box_group_02 {float:left;}
-  .box02 {width:1000px;height:400px; box-shadow: 0 10px 10px -10px rgba(11, 11, 11, 0.16);border-bottom: 3px solid #707070;}
-  .box02 div.main_text{text-align: left; font-size:40px; padding:240px 0 0 60px;}
+  .box_group_02 {float:left; width:1000px;}
+  .box02 {margin:0 0 0 100px; width:900px;height:400px; box-shadow: 0 20px 10px -10px rgba(11, 11, 11, 0.16);border-bottom: 3px solid #707070;}
+  .box02 div.main_text{text-align: left; font-size:40px; padding:240px 0 0 0;}
   .box02 div.sub_text a{color:#2e2d2d; text-decoration: none;}
   .box02 div.sub_text p{font-size:35px;float:right;margin:10px 10px 0 0;}
   .box02 div.sub_text img{float:right; width:40px; height:40px; margin:16px 0 0 0;}
