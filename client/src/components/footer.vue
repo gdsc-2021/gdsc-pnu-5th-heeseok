@@ -51,7 +51,7 @@
 </script>
 
 <style scoped>
-    .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 250px;display: block;background: #f4f4f4; }
+    .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 250px;display: block;background: #f4f4f4;}
     .footer {position:relative;display:block;width: 1400px;height: 200px;margin: 0 auto;}
 
     .footer .logo_wrap {position:relative;top:0;left:0;display:block;width: 100%; z-index: 600;}
