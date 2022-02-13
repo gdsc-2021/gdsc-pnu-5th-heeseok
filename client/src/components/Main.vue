@@ -53,14 +53,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container_wrap {position: relative;display: block; overflow: hidden; padding-bottom: 394px;}
+  .container_wrap {position: relative;display: block; overflow: hidden;height: 1070px;}
   .contents_wrap {position: relative;display: block;width: 1400px;margin:93px auto;}
 
   .container_wrap .deco_img01 {position:absolute; margin:0; padding:0;}
   .container_wrap .deco_img01 img {width:483px; height:499.6px;}
 
   .container_wrap .deco_img02 {position:absolute; margin:777.2px 0 0 calc(100% - 1131.5px); padding:0;}
-  .container_wrap .deco_img02 img {width:1131.5px; height:292.8px;}
+  .container_wrap .deco_img02 img {width:1145px; height:292.8px;}
 
   @media screen and (max-width: 1800px) {
     .container_wrap .deco_img01 {display: none;}
