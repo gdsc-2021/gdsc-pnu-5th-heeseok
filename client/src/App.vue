@@ -4,7 +4,7 @@
     <Header />
     <!-- <Main /> -->
     <router-view />
-    <Footer />
+    <Footer v-if="$route.name !== 'Main'"></Footer>
   </div>
 </div>
 </template>
@@ -25,7 +25,8 @@ export default {
 </script>
 
 <style>
-body { margin: 0 !important; }
+body { margin: 0 !important; -ms-overflow-style: none;}
+body::-webkit-scrollbar{display: none;}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
