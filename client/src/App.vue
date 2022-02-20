@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Header from "./components/header.vue";
-import Footer from "./components/footer.vue";
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 //import Main from './components/Main.vue'
 
 export default {
@@ -25,8 +25,11 @@ export default {
 </script>
 
 <style>
-body { margin: 0 !important; -ms-overflow-style: none;}
-body::-webkit-scrollbar{display: none;}
+body { margin: 0 !important;}
+
+/* body { margin: 0 !important; -ms-overflow-style: none;}
+body::-webkit-scrollbar{display: none;} */
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
