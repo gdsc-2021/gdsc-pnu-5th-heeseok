@@ -7,35 +7,26 @@
         <img alt="deco line 02" src="../assets/deco_line_02.png" />
       </div>
       <div class="contents_wrap">
-        <div class="box_group_01">
-          <div class="box01">
-            <div class="visual">
-              <img alt="GDSC Symbol" src="../assets/gdscSymbol.png">
-            </div> 
-          </div> 
-          <div class="box03">
-            
-          </div> 
-        </div>  
-        <div class="box_group_02">
-          <div class="box02">
-            <div class="main_text">
-              Google Developer Students Club<br />
-              Pusan National University Chapter
+        <div class="box_wrap">
+          <div class="box-logo">
+            <img alt="GDSC Symbol" src="../assets/gdscSymbol.png"> 
+          </div>
+          <div class="box_text_wrap">
+            <div class="box-title">
+              <h1>
+                Google Developer Students Club<br />
+                Pusan National University Chapter
+              </h1>
             </div>
-            <div class="sub_text">
-              <router-link to="/introduce">
+            <div class="box-router">
+              <router-link to="/Introduce">
                 <img alt="GDSC Symbol" src="../assets/arrow.png">
                 <p>Introduce</p>
               </router-link>
             </div>
-            <div class="bottom_line">
-            </div>
+            <div class="box-line"></div>
           </div> 
-          <div class="box04">
-            
-          </div> 
-        </div>
+        </div> 
       </div>
     </div>   
 </template>
@@ -53,8 +44,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container_wrap {position: relative;display: block; overflow: hidden;height: 1070px;}
-  .contents_wrap {position: relative;display: block;width: 1400px;margin:93px auto;}
+  .container_wrap {position: relative;display: block; overflow: hidden;}
 
   .container_wrap .deco_img01 {position:absolute; margin:0; padding:0;}
   .container_wrap .deco_img01 img {width:483px; height:499.6px;}
@@ -67,19 +57,17 @@ export default {
     .container_wrap .deco_img02 {display: none;}
   }
 
-  .box_group_01 {float:left;}
-  .box01 {width:400px;height:514.5px;}
-  .box01 div.visual img{margin:179.2px 0 0 50px; width:405px; height:227.5px;}
-
-  .box03 {height:300px;}
-
-  .box_group_02 {float:left; width:1000px;}
-  .box02 {margin:0 0 0 100px; width:950px;height:514.5px;}
-  .box02 div.main_text{text-align: left; font-size:40px; padding:278px 0 0 10px;}
-  .box02 div.sub_text a{color:#2e2d2d; text-decoration: none;}
-  .box02 div.sub_text p{font-size:35px;float:right;margin:34.4px 10px 0 0; text-shadow: 4px 4px 4px rgba(11, 11, 11, 0.16);}
-  .box02 div.sub_text img{float:right; width:40px; height:40px; margin:40px 0 0 0;}
-  .box02 .bottom_line {margin:107.9px auto; height: 0; width:1224.5px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16); border-bottom: 3px solid #707070;}
+  .contents_wrap {position: relative;display: block;width: 1400px;height: 1070px;margin:91px auto 0 auto;}
+  .contents_wrap .box_wrap {display: flex; justify-content: flex-start; padding-top: 181.2px; height: 335.3px;}
+  .contents_wrap .box_wrap .box-logo {width: 405px; height: 227.5px; overflow: hidden;}
   
-  .box04 {height:300px;}
+  .contents_wrap .box_wrap .box_text_wrap {margin-top:64px; width: calc(100% - 500px); margin-left: 56.5px;}
+  .contents_wrap .box_wrap .box_text_wrap .box-title {height: 120px;}
+  .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-family: AppleSDGothicNeo; font-size: 40px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
+  .contents_wrap .box_wrap .box_text_wrap .box-router {height:calc(100% - 120px - 31.3px);}
+  .contents_wrap .box_wrap .box_text_wrap .box-router a{color:#2e2d2d; text-decoration: none;}
+  .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:35px;float:right;margin:34.4px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
+  .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin:50px 0 0 0;}
+
+  .contents_wrap .box_wrap .box_text_wrap .box-line {width:1224.5px; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070;}
 </style>
