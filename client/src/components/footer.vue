@@ -5,7 +5,7 @@
                 <router-link to='/'>
                 <ul class="logo">
                     <li class="logo_img">
-                        <img alt="Vue logo" src="../assets/untitled_logo.png">
+                        <img alt="Vue logo" src="../assets/footer_logo.png">
                     </li>
                     <li class="logo_txt">
                         <div></div>
@@ -58,9 +58,9 @@
 
     .footer .logo_wrap {position:relative;top:0;left:0;display:block;width: 100%; z-index: 600;}
 
-    .footer .logo_wrap .logo {display: block;text-align: center; float: left;}
+    .footer .logo_wrap .logo {display: block;text-align: center; float: left; margin: 0;}
     .footer .logo_wrap .logo li {position: relative;display: inline-block;vertical-align:middle;padding: 0 8px;}
-    .footer .logo_wrap .logo li.logo_img img {display: block; width:160px; height: 145px; margin:81px 0 0 50px;}
+    .footer .logo_wrap .logo li.logo_img img {display: block; width:321px; height: 317px; margin:22px 0 0 0;}
     .footer .logo_wrap .logo li.logo_txt div {display: block;color:#808080;font-size:20px;line-height:80px;}
 
     .footer .navi-wrap {position:relative;top:0;left:0;display:block;width: 100%;}
@@ -70,6 +70,6 @@
     .footer .navi li.nm-mn1 a {position: relative;display:block;color:#808080;font-size:18px;font-weight: 600;line-height:80px;height: 80px;text-align: center; text-decoration: none;}
     .footer .navi li.nm-mn1 .router-link-active {color:#4285f4}
 
-    .footer .foot_copy_wrap {width: 100%; float:left; margin:74px 0 0 0;}
+    .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
     .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
 </style>
