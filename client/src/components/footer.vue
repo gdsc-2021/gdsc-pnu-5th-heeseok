@@ -16,14 +16,14 @@
             <div class="navi-wrap">
                 <ul class="navi">
                     <li class="nm-mn1">
-                        <router-link to='/introduce'>
+                        <router-link to='/Introduce'>
                             GDSC PNU 소개
                         </router-link>
                     </li>
                     <li class="nm-mn1">
-                        <a href="#">
+                        <router-link to='/Member'>
                             구성원 소개
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nm-mn1">
                         <a href="#">
