@@ -24,7 +24,7 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### router settings
+### Router settings
 ```
 yarn add vue-router@next
 ```
