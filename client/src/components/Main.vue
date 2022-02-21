@@ -6,9 +6,10 @@
       <div class="deco_img02">
         <img alt="deco line 02" src="../assets/deco_line_02.png" />
       </div>
+      
       <div class="contents_wrap">
         <div class="box_wrap">
-          <div class="box-logo">
+          <div class="box_logo_wrap">
             <img alt="GDSC Symbol" src="../assets/gdscSymbol.png"> 
           </div>
           <div class="box_text_wrap">
@@ -57,9 +58,9 @@ export default {
     .container_wrap .deco_img02 {display: none;}
   }
 
-  .contents_wrap {position: relative;display: block;width: 1400px;height: 1070px;margin:91px auto 0 auto;}
+  .contents_wrap {position: relative;display: block;width: 1400px;height: 888.8px;margin:91px auto 0 auto;}
   .contents_wrap .box_wrap {display: flex; justify-content: flex-start; padding-top: 181.2px; height: 335.3px;}
-  .contents_wrap .box_wrap .box-logo {width: 405px; height: 227.5px; overflow: hidden;}
+  .contents_wrap .box_wrap .box_logo_wrap {width: 405px; height: 227.5px; overflow: hidden;}
   
   .contents_wrap .box_wrap .box_text_wrap {margin-top:64px; width: calc(100% - 500px); margin-left: 56.5px;}
   .contents_wrap .box_wrap .box_text_wrap .box-title {height: 120px;}

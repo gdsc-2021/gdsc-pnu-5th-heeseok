@@ -9,89 +9,80 @@
       <div class="deco_img04">
         <img alt="deco line 04" src="../assets/deco_line_04.png" />
       </div>
+      
       <div class="contents_wrap">
-        <div class="box_group_01">
-          <div class="box01">
-            <div class="visual">
+        <div class="box_wrap">
+          <div class="box_group01">
+            <div class="box-group01-img">
               <img alt="ready" src="../assets/ready_01.png">
-            </div> 
-          </div> 
-          <div class="box03">
-            <div class="main_text">
-              <div class="bold_text">
-                저희는 이런저런 커뮤니티입니다
-              </div>
-              <div class="plain_text">
-                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵<br />
-                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵<br />
-                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵<br />
-                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵<br />
-                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵<br />
-                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
-              </div>
             </div>
-          </div> 
-          <div class="box05">
-            <div class="visual">
-              <img alt="GDSC Symbol" src="../assets/gdscSymbol.png">
-            </div>
-          </div> 
-        </div>  
-
-        <div class="box_group_02">
-          <div class="box02">
-            <div class="main_text">
-              <div class="bold_text">
+            <div class="box-group01-text">
+              <div class="box-group01-text-title">
                 안녕하세요!<br />
                 Google Developer Students Club PNU Chapter입니다.
               </div>
-              <div class="plain_text">
-                이곳에는 Google Developer Students Club 소개 및 GDSC PNU 소개가 들어갈 예정입니다~!
+              <p class="box-group01-text-mtext">
+                이곳에는 Google Developer Students Club 소개 및 GDSC PNU 소개가 들어갈 예정입니다~! <br />
                 어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
                 어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
                 어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
                 어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
                 어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구 소개어쩌구저쩌구저쩌구
-              </div>
-            </div>
-          </div> 
-          <div class="box04">
-            <div class="visual">
-              <img alt="ready" src="../assets/ready_01.png">
-            </div>
+              </p>  
+            </div>   
           </div>
-          <div class="box06">
-            <div class="main_text">
-              <div class="bold_text">
+          <div class="box_group02">
+            <div class="box-group02-text">
+              <div class="box-group02-text-title">
+                저희는 이런저런 커뮤니티입니다
+              </div>
+              <p class="box-group02-text-mtext">
+                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
+                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
+                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
+                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
+                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
+                우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵 우리 커뮤니티는 이러쿵저러쿵
+              </p>  
+            </div>
+            <div class="box-group02-img">
+              <img alt="ready" src="../assets/ready_01.png">
+            </div>   
+          </div> 
+          <div class="box_group03">
+            <div class="box-group03-img">
+              <img alt="GDSC Symbol" src="../assets/gdscSymbol.png">
+            </div>
+            <div class="box-group03-text">
+              <div class="box-group03-text-title">
                 Google Developer Students Club과 Google Developer 커뮤니티에<br />
                 더 궁금하신 부분이 있으시다면 아래 링크로 이동하시면 됩니다~!
               </div>
-              <div class="plain_text">
+              <p class="box-group03-text-mtext">
                 링크링크링크링크링크링크링크링크링크링크링크링크링크링크링크링크
-              </div>
+                링크링크링크링크링크링크링크링크링크링크링크링크링크링크링크링크
+                링크링크링크링크링크링크링크링크링크링크링크링크링크링크링크링크
+              </p>  
             </div>
-          </div>  
-        </div>
+          </div> 
+        </div>  
       </div>
-    </div>   
-    <!-- <Footer /> -->
+  </div>   
 </template>
 
 <script>
-// import Footer from "./footer.vue";
 
 export default {
   name: 'Introduce',
   components: {
-    // Footer,
+
   },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .container_wrap {position: relative;display: block; overflow: hidden; padding-bottom: 150px;}
-  .contents_wrap {position: relative;display: block;width: 1400px;margin:93px auto;}
+  .container_wrap {position: relative;display: block; overflow: hidden; }
 
   .container_wrap .deco_img01 {position:absolute; margin:0; padding:0;}
   .container_wrap .deco_img01 img {width:483px; height:499.6px;}
@@ -108,29 +99,27 @@ export default {
     .container_wrap .deco_img04 {display: none;}
   }
 
-  .box_group_01 {float:left;width:700px;}
-  .box01 {height: 400px; text-align: left; margin:137px 0 0 80px;}
-  .box01 div.visual img{ width:555px; height:263px;}
+  .contents_wrap {position: relative;display: block;width: 1400px; height: 1582px; margin:91px auto 0 auto; }
+  .contents_wrap .box_wrap {height: 100%;}
 
-  .box03 {height: 300px; margin: 67px 0 0 0;}
-  .box03 div.main_text {text-align: left; padding:10px 0 0 80px;}
-  .box03 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold; }
-  .box03 div.main_text .plain_text{color:#5c5c5c; font-size: 15px;}
+  .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px; display: flex; justify-content: space-between; margin-top: 228px;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 555px; height: 263px;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 817px; height: 263px; text-align: left; }
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {margin-top: 10px; font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
-  .box05 {height: 300px;text-align: left; margin:377.3px 0 0 80px;}
-  .box05 div.visual img{ width:405px; height:227.5px;}
+  .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; display: flex; justify-content: space-between; margin-top: 167px;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 560px; height: 257px; text-align: right;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 560px; height: 257px;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 815px; height: 257px; text-align: left; }
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {margin-top: 10px; font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
-  .box_group_02 {float:left;width:700px;}
-  .box02 {height: 400px; margin:137px 0 0 0;}
-  .box02 div.main_text {text-align: left; padding:5px 50px 0 0;}
-  .box02 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold;}
-  .box02 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:10px;}
+  .contents_wrap .box_wrap .box_group03 {width: 100%; height: 227.5px; display: flex; justify-content: space-between; margin-top: 397.3px;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-img {width: 405px; height: 227.5px; text-align: left;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-img img {width: 405px; height: 227.5px;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-text {width: 850px; height: 227.5px; text-align: left; }
+  .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
-  .box04 {height: 300px; margin: 67px 0 0 0;}
-  .box04 div.visual img{width:555px; height:263px;}
-
-  .box06 {height: 300px; width: 850px; margin:377.3px 0 0 0;}
-  .box06 div.main_text {text-align: left; padding:44.7px 0 44.7px 0;}
-  .box06 div.main_text .bold_text{color:#000; font-size: 22px; font-weight: bold;}
-  .box06 div.main_text .plain_text{color:#5c5c5c; font-size: 15px; margin-top:20px;}
 </style>
