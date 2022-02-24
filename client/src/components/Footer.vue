@@ -26,12 +26,12 @@
                         </router-link>
                     </li>
                     <li class="nm-mn1">
-                        <a href="#">
+                        <router-link to="/Activity">
                             활동 내용
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nm-mn1">
-                        <a href="#">
+                        <a href="javascript:;" v-on:click="toParticipation()">
                             참여 신청
                         </a>
                     </li>
@@ -47,8 +47,13 @@
 </template>
 
 <script>
+    import toParticipation from "./functions/toParticipation";
+
     export default {
         name: 'Footer',
+        setup() {
+            return {toParticipation}
+        }
     }
 </script>
 
