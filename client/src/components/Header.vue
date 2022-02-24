@@ -26,12 +26,12 @@
                         </router-link>
                     </li>
                     <li class="nm-mn1">
-                        <a href="#">
+                        <router-link to="/Activity">
                             활동 내용
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nm-mn1">
-                        <a href="#">
+                        <a href="javascript:;" v-on:click="toParticipation()">
                             참여 신청
                         </a>
                     </li>
@@ -42,8 +42,13 @@
 </template>
 
 <script>
+    import toParticipation from "./functions/toParticipation";
+
     export default {
         name: 'Header',
+        setup() {
+            return {toParticipation}
+        }
     }
 </script>
 
@@ -55,7 +60,7 @@
 
     .header .logo_wrap .logo {display: block; float:left}
     .header .logo_wrap .logo li {position: relative;display: block; float:left; padding: 0 20px 0 0;}
-    .header .logo_wrap .logo li.logo_img {width:72px; height: 65px;}
+    /* .header .logo_wrap .logo li.logo_img {width:72px; height: 65px;} */
     /* .header .logo_wrap .logo li.logo_img img {display: block; width:72px; height: 65px;} */
     .header .logo_wrap .logo li.logo_txt div {display: block;color:#808080;font-size:20px;line-height:65px;}
 

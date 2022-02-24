@@ -104,15 +104,16 @@ export default {
 
   .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px; display: flex; justify-content: space-between; margin-top: 228px;}
   .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 555px; height: 263px;}
-  .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 817px; height: 263px; text-align: left; }
-  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {margin-top: 10px; font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 555px; height: 263px;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 817px; height: 263px; text-align: left; margin-left:67px;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
   .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; display: flex; justify-content: space-between; margin-top: 167px;}
   .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 560px; height: 257px; text-align: right;}
   .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 560px; height: 257px;}
-  .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 815px; height: 257px; text-align: left; }
-  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {margin-top: 10px; font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 815px; height: 257px; text-align: left; margin-right: 67px;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
   .contents_wrap .box_wrap .box_group03 {width: 100%; height: 227.5px; display: flex; justify-content: space-between; margin-top: 397.3px;}
