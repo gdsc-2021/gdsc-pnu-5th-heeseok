@@ -48,9 +48,50 @@
                         <div class="box_group02_card_wrap">
                             <div class="box-group02-card">
                                 <div class="box-group02-card-top">
-                                    
+                                    <img alt="profile photo" src="../assets/profile_photo.png" />
+                                    <div class="profile-info">
+                                        <div class="profile-info-text">
+                                            <div class="profile-info-text01">
+                                                Name : google
+                                            </div>
+                                            <div class="profile-info-text02">
+                                                Address : abcd@gmail.com
+                                            </div>
+                                            <div class="profile-info-text03">
+                                                Git : http://gitlab.com/abcd
+                                            </div>
+                                        </div>
+                                        <div class="profile-info-tag">
+                                            <div class="tag">
+                                                <span># Typescript</span>
+                                            </div>
+                                            <div class="tag">
+                                                <span># React</span>
+                                            </div> 
+                                            <div class="tag">
+                                                <span># Nodejs</span>
+                                            </div> 
+                                            <div class="tag">
+                                                <span># AWS</span>
+                                            </div> 
+                                            <div class="tag">
+                                                <span># Nodejs</span>
+                                            </div>    
+                                        </div>
+                                    </div>    
                                 </div>
                                 <div class="box-group02-card-bottom">
+                                    <div class="profile-info-tag">
+                                            <div class="tag">
+                                                <span># 2021 GDSC PNU 해커톤</span>
+                                            </div>
+                                            <div class="tag">
+                                                <span># 2021 Devfest Korea</span>
+                                            </div> 
+                                            <div class="tag">
+                                                <span># 2021 GDSC PNU Android 세션</span>
+                                            </div>   
+                                        </div>
                                 </div>
                             </div>
                             <div class="box-group02-card">
@@ -108,7 +149,20 @@ export default {
   .container_wrap .contents_wrap .box_wrap .box_group02 {display: flex; justify-content: flex-start; height: calc(100% - 373px); margin-top:211px; background-color: aquamarine;}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap {margin:0px auto; width: 100%; height: 100%; background-color: bisque;} 
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap {display: flex; justify-content:center; padding-bottom: 163px;}
-  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card {width: 526px; height: 304px; margin: 35px; padding:37px;  box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.16); background-color: burlywood;}
-  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top {width: 100%; height: 133px; background-color: cornflowerblue;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card {width: 526px; height: 304px; margin: 35px; box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.16); background-color: burlywood;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top {margin:37px 39px 0px 56px; height: 133px; display: flex; justify-content: space-between; background-color: cornflowerblue;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top img {width: 123px; height: 122px;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info {width:270px; height: 133px; text-align: left; background-color: darkgray;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-text {font-family: AppleSDGothicNeo;font-size: 15px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #0b0b0b;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-text .profile-info-text02 {margin-top: 6px;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-text .profile-info-text03 {margin-top: 6px;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-tag {width:100%; height:44px; margin-top: 17px;background-color: #f8f8f8;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-tag .tag {display: table; height: 22px;margin-right:6px; margin-bottom:3px; padding:0px 6px; text-align: center; border-radius: 11px;background-color: #4c5664; float: left;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-tag .tag span {font-family: AppleSDGothicNeo;font-size: 15px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #fff;}
+
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-bottom {margin:0px 39px 41px 56px; height: 54px; margin-top: 40px; background-color: cornflowerblue;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-bottom .profile-info-tag {width:100%; height:44px; margin-top: 17px;background-color: #f8f8f8;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-bottom .profile-info-tag .tag {display: table; height: 22px;margin-right:6px; margin-bottom:10px; padding:0px 6px; text-align: center; border-radius: 11px;background-color: #6a6a6a; float: left;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-bottom .profile-info-tag .tag span {font-family: AppleSDGothicNeo;font-size: 15px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #fff;}
 
 </style>
