@@ -7,7 +7,9 @@
                         <div class="fixed-nth-wrapper">
                             <input id="fixed-menu-checkbox" type="checkbox" class="fixed-checkbox" />
                             <label for="fixed-menu-checkbox" class="fixed-label">
-                                기수 선택
+                                <span v-if="memberNumber === 1">{{ memberNumber }}st Members</span>
+                                <span v-else-if="memberNumber === 2">{{ memberNumber }}nd Members</span>
+                                <span v-else>{{ memberNumber }}th Members</span>
                                 <svg class="menu-icon-svg" width="21" height="13" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 1L6 6L11 1" stoke="#4D5159" strokewidth="1.5" strokelinecap="round" strokelinejoin="round" />
                                 </svg>
@@ -141,8 +143,9 @@ export default {
   .container_wrap .contents_wrap .box_wrap .box_group01 {display: flex; justify-content: flex-start;}
   .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper {position: relative; display: inline-block;margin-left: 25px; margin-top: 85px; border: 1px solid #868894; border-radius: 10px; width:239px; height: 75px;}
   .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox {display: none;}
-  .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label {display: inline-flex; width: 200px; height: 75px; justify-content: space-between; align-items: center; font-style: normal; font-weight: bold; font-size: 20px; letter-spacing: -0.02em; cursor: pointer;}
-  .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label .menu-icon-svg {margin-left:9px;margin-top:0px;}
+  .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label {display: inline-flex; width: 200px; height: 75px; justify-content: space-between; align-items: center; cursor: pointer;}
+  .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label span {font-family: AppleSDGothicNeo;font-size: 25px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #000;}
+  .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label .menu-icon-svg {margin-top:2px;}
   .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox:checked+.fixed-label .menu-icon-svg {transform: rotate(180deg);}
   .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox:checked~.fixed-menu-ul {display: block; opacity: 1;}
   .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul {list-style-type: none; display: none; position: absolute; width: 259px; height: 211px; margin-top:0px; padding: 0px; background: #2c2c2c; box-sizing: border-box; overflow-y: scroll;}
@@ -161,7 +164,7 @@ export default {
   .container_wrap .contents_wrap .box_wrap .box_group02 {display: flex; justify-content: flex-start; height: calc(100% - 373px); margin-top:211px; }
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap {margin:0px auto; width: 100%; height: 100%; padding-bottom: 163px;} 
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap {width:100%; height:inherit; margin: 0px 104px;}
-  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card {float:left; width: 526px; height: 304px; margin: 35px; box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.16); }
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card {float:left; width: 526px; height: 304px; margin: 35px; box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.16);}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top {margin:37px 39px 0px 56px; height: 133px; display: flex; justify-content: space-between; }
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top img {width: 123px; height: 122px;}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info {width:270px; height: 133px; text-align: left; }
