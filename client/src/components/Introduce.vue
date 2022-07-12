@@ -99,6 +99,11 @@ export default {
     .container_wrap .deco_img04 {display: none;}
   }
 
+  @media (min-width: 481px) and (max-width: 767px) {
+    .container_wrap {position: relative;display: block; overflow: scroll; -ms-overflow-style: none;}
+    .container_wrap::-webkit-scrollbar{display: none;}
+  }
+
   .contents_wrap {position: relative;display: block;width: 1400px; height: 1582px; margin:91px auto 0 auto; }
   .contents_wrap .box_wrap {height: 100%;}
 

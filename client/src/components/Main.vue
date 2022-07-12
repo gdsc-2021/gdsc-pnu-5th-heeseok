@@ -58,6 +58,11 @@ export default {
     .container_wrap .deco_img02 {display: none;}
   }
 
+  @media (min-width: 481px) and (max-width: 767px) {
+    .container_wrap {position: relative;display: block; overflow: scroll; -ms-overflow-style: none;}
+    .container_wrap::-webkit-scrollbar{display: none;}
+  }
+
   .contents_wrap {position: relative;display: block;width: 1400px;height: 888.8px;margin:91px auto 0 auto;}
   .contents_wrap .box_wrap {display: flex; justify-content: flex-start; padding-top: 181.2px; height: 335.3px;}
   .contents_wrap .box_wrap .box_logo_wrap {width: 405px; height: 227.5px; overflow: hidden;}

@@ -6,7 +6,7 @@
                 Find Inspiration
             </div>
             <div class="introduction-comment">
-                Learn how Google Developer Student Clubs have successfully built their communities and engaged members<br />
+                Learn how Google Developer Student Clubs have successfully built their communities and engaged members
                 to learn and share best practices with one anther.
             </div>
           </div>
@@ -152,8 +152,8 @@ export default {
 <style scoped>
   .container_wrap {position: relative;display: block; overflow: hidden; }
 
-  .introduction_wrap {width: 1920px; height: 499px; background-color: #f0f0f0;}
-  .introduction_wrap .introduction {padding-top: 207px; padding-left: 134px; text-align: left;}
+  .introduction_wrap {background-color: #f0f0f0;}
+  .introduction_wrap .introduction {padding-top: 207px; padding-left: 134px; text-align: left; padding-bottom: 100px; padding-right: 134px;}
   .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 50px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
   .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 30px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
   
@@ -173,6 +173,11 @@ export default {
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
-  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .container_wrap {position: relative;display: block; overflow: scroll; -ms-overflow-style: none;}
+    .container_wrap::-webkit-scrollbar{display: none;}
+    .introduction_wrap {background-color: #f0f0f0; width: 1400px; }
+    .introduction_wrap .introduction {padding-top: 207px; padding-left: 134px; text-align: left; padding-bottom: 100px;}
+  }
 
 </style>

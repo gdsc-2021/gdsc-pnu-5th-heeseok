@@ -186,4 +186,8 @@ export default {
     .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card {float: none;}
     .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top {padding-top: 37px;}
   }
+
+  /* @media (min-width: 481px) and (max-width: 767px) {
+    .container_wrap {position: relative;display: block; overflow: scroll;}
+  } */
 </style>
