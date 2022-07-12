@@ -63,7 +63,7 @@
 
     .footer .logo_wrap {position:relative;top:0;left:0;display:block;width: 100%; z-index: 600;}
 
-    .footer .logo_wrap .logo {display: block;text-align: center; float: left; margin: 0;}
+    .footer .logo_wrap .logo {display: block;text-align: center; float: left; margin: 0; position: relative;}
     .footer .logo_wrap .logo li {position: relative;display: inline-block;vertical-align:middle;padding: 0 8px;}
     .footer .logo_wrap .logo li.logo_img img {display: block; width:321px; height: 317px; margin:22px 0 0 0;}
     .footer .logo_wrap .logo li.logo_txt div {display: block;color:#808080;font-size:20px;line-height:80px;}
@@ -77,4 +77,9 @@
 
     .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
     .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4; overflow-x: scroll; overflow-y: hidden; -ms-overflow-style: none;}
+        .container_wrap::-webkit-scrollbar{display: none;}
+    }
 </style>

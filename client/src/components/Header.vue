@@ -72,4 +72,9 @@
     .header .navi li.nm-mn1 a:hover {color:#4285f4}
     .header .navi li.nm-mn1 .router-link-active {color:#4285f4}
 
+    @media (min-width: 481px) and (max-width: 767px) {
+        .header_wrap {position: fixed; top: 0;left: 0;width: 100%; display: block;background: #fff; box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16); border-bottom: 1px solid #011557; z-index:500; overflow-x: scroll; overflow-y: hidden; -ms-overflow-style: none;}
+        .header_wrap::-webkit-scrollbar{display: none;}
+    }
+
 </style>

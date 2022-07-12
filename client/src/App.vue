@@ -1,5 +1,8 @@
 <template>
 <div id="app">
+  <head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, user-scalable=yes, minimum-scale=0.25">
+  </head>
   <div class="doc_wrap">
     <Header />
     <!-- <Main /> -->
@@ -25,10 +28,10 @@ export default {
 </script>
 
 <style>
-body { margin: 0 !important;}
+/* body { margin: 0 !important;} */
 
-/* body { margin: 0 !important; -ms-overflow-style: none;}
-body::-webkit-scrollbar{display: none;} */
+body { margin: 0 !important; -ms-overflow-style: none;}
+body::-webkit-scrollbar{display: none;}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -39,4 +42,8 @@ body::-webkit-scrollbar{display: none;} */
 }
 
 .doc_wrap{position:relative;overflow:hidden;min-width:100%;min-height: 100%;}
+
+@-ms-viewport{
+  width: 480px;
+}
 </style>
