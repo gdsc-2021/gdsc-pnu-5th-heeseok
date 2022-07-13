@@ -52,7 +52,8 @@
                                 <div class="box-group02-card-top">
                                     <!-- <img alt="profile photo" src="../assets/profile_photo.png" /> -->
                                     <div class="img_box">
-                                        <img class="profile_img" alt="profile photo" v-bind:src="content.githubAvatarUrl" />
+                                        <img v-if="content.githubAvatarUrl == 'default'" alt="profile photo" src="../assets/profile_photo.png" />
+                                        <img v-else class="profile_img" alt="profile photo" v-bind:src="content.githubAvatarUrl" />
                                     </div>
                                     <div class="profile-info">
                                         <div class="profile-info-text">
