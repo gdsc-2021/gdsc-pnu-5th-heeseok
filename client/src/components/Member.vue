@@ -50,7 +50,10 @@
                         <div class="box_group02_card_wrap">
                             <div class="box-group02-card" v-for="content in cards" :key="content.id">
                                 <div class="box-group02-card-top">
-                                    <img alt="profile photo" src="../assets/profile_photo.png" />
+                                    <!-- <img alt="profile photo" src="../assets/profile_photo.png" /> -->
+                                    <div class="img_box">
+                                        <img class="profile_img" alt="profile photo" v-bind:src="content.githubAvatarUrl" />
+                                    </div>
                                     <div class="profile-info">
                                         <div class="profile-info-text">
                                             <div class="profile-info-text01">
@@ -166,7 +169,8 @@ export default {
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap {width:100%; height:inherit; margin: 0px 104px;}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card {float:left; width: 526px; height: 304px; margin: 35px; box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.16);}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top {margin:37px 39px 0px 56px; height: 133px; display: flex; justify-content: space-between; }
-  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top img {width: 123px; height: 122px;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .img_box {width: 123px; height: 122px; border-radius: 70%; overflow: hidden;}
+  .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .img_box .profile_img {width: 100%; height: 100%; object-fit: cover;}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info {width:270px; height: 133px; text-align: left; }
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-text {font-family: AppleSDGothicNeo;font-size: 15px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #0b0b0b;}
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-top .profile-info .profile-info-text .profile-info-text02 {margin-top: 6px;}

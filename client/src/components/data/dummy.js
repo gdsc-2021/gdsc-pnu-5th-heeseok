@@ -1,10 +1,10 @@
 export const data1 = [
   {
     id: 1,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍일동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -27,10 +27,10 @@ export const data1 = [
   },
   {
     id: 2,
-    name: "소윤 이",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍이동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -53,10 +53,10 @@ export const data1 = [
   },
   {
     id: 3,
-    name: "BIll",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍삼동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -79,10 +79,10 @@ export const data1 = [
   },
   {
     id: 4,
-    name: "Chanwoo Shin",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍사동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -105,10 +105,10 @@ export const data1 = [
   },
   {
     id: 5,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍오동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -131,10 +131,10 @@ export const data1 = [
   },
   {
     id: 6,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍육동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -157,10 +157,10 @@ export const data1 = [
   },
   {
     id: 7,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍칠동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -183,10 +183,10 @@ export const data1 = [
   },
   {
     id: 8,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "홍팔동",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -212,10 +212,10 @@ export const data1 = [
 export const data2 = [
   {
     id: 1,
-    name: "Chanwoo Shin",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동일",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -238,10 +238,10 @@ export const data2 = [
   },
   {
     id: 2,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동이",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -264,10 +264,10 @@ export const data2 = [
   },
   {
     id: 3,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동삼",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -290,10 +290,10 @@ export const data2 = [
   },
   {
     id: 4,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동사",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -316,10 +316,10 @@ export const data2 = [
   },
   {
     id: 5,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동오",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -342,10 +342,10 @@ export const data2 = [
   },
   {
     id: 6,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동육",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -368,10 +368,10 @@ export const data2 = [
   },
   {
     id: 7,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동칠",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -394,10 +394,10 @@ export const data2 = [
   },
   {
     id: 8,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "동동팔",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -423,10 +423,10 @@ export const data2 = [
 export const data3 = [
   {
     id: 1,
-    name: "강수아",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권일석",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -449,10 +449,10 @@ export const data3 = [
   },
   {
     id: 2,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권이석",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -478,10 +478,10 @@ export const data3 = [
 export const data4 = [
   {
     id: 1,
-    name: "박대산",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권하나",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -507,10 +507,10 @@ export const data4 = [
 export const data5 = [
   {
     id: 1,
-    name: "김동영",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권희석",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -533,10 +533,10 @@ export const data5 = [
   },
   {
     id: 2,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권희석",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/Kwon1995-2",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -559,10 +559,10 @@ export const data5 = [
   },
   {
     id: 3,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권희석",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/Kwon1995-2",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
@@ -585,10 +585,10 @@ export const data5 = [
   },
   {
     id: 4,
-    name: "박상은",
-    address: "bseun3412@gmail.com",
-    git: "https//github.com/sangeunnn",
-    githubAvatarUrl: "https://avatars.githubusercontent.com/sangeunnn",
+    name: "권희석",
+    address: "simongmltjr2022@gmail.com",
+    git: "https://github.com/HeeSeok-Kwon",
+    githubAvatarUrl: "https://avatars.githubusercontent.com/HeeSeok-Kwon",
     skillAndLanguage: [
       { id: 1, value: "AWS" },
       { id: 2, value: "Kubernetes" },
