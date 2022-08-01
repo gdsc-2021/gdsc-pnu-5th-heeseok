@@ -173,11 +173,37 @@ export default {
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
-  @media (min-width: 481px) and (max-width: 767px) {
-    .container_wrap {position: relative;display: block; overflow: scroll; -ms-overflow-style: none;}
-    .container_wrap::-webkit-scrollbar{display: none;}
-    .introduction_wrap {background-color: #f0f0f0; width: 1400px; }
-    .introduction_wrap .introduction {padding-top: 207px; padding-left: 134px; text-align: left; padding-bottom: 100px;}
+  @media screen and (max-width: 767px) {
+    .contents_wrap {position: relative;display: block;max-width: 481px; height: 2842px; margin:0 auto; }
+
+    
+    .introduction_wrap .introduction {padding-top: 157px; padding-left: 134px; text-align: left; padding-bottom: 80px; padding-right: 134px;}
+    .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 28px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
+    .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 17px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
+    
+    .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px; display: block; margin-top: 138px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 320px; height: 153px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 320px; height: 153px;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 320px; text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+    .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; display: block; margin-top: 142px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 320px; height: 153px; text-align: right; margin-top: 20px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 320px; height: 153px;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 320px; text-align: left; margin-right: 0px; height: 150px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+  }
+
+  @media screen and (max-width: 481px) {
+    .contents_wrap {position: relative;display: block;max-width: 365px; height: 2842px; margin:0 auto; }
+    
+    .introduction_wrap .introduction {padding-top: 157px; padding-left: 25px; padding-right: 25px; text-align: left; padding-bottom: 80px;}
+    .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 28px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #4887ff;}
+    .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 17px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #5c5c5c;}
+  
   }
 
 </style>

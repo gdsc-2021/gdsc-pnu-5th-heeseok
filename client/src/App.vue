@@ -1,11 +1,11 @@
 <template>
 <div id="app">
   <head>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, user-scalable=yes, minimum-scale=0.25">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=yes, minimum-scale=0.25">
+    <title>GDSC PNU Homepage Demo</title>
   </head>
   <div class="doc_wrap">
     <Header />
-    <!-- <Main /> -->
     <router-view />
     <Footer v-if="$route.name !== 'Main'"></Footer>
   </div>
@@ -15,7 +15,6 @@
 <script>
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
-//import Main from './components/Main.vue'
 
 export default {
   name: 'App',
@@ -23,7 +22,7 @@ export default {
     Header,
     Footer,
     //Main
-  }
+  },
 }
 </script>
 
@@ -42,8 +41,4 @@ body::-webkit-scrollbar{display: none;}
 }
 
 .doc_wrap{position:relative;overflow:hidden;min-width:100%;min-height: 100%;}
-
-@-ms-viewport{
-  width: 480px;
-}
 </style>

@@ -2,16 +2,13 @@
     <div class="footer_wrap">
         <div class="footer">
             <div class="logo_wrap">
-                <router-link to='/'>
                 <ul class="logo">
                     <li class="logo_img">
-                        <img alt="Vue logo" src="../assets/footer_logo.png">
-                    </li>
-                    <li class="logo_txt">
-                        <div></div>
+                        <router-link to='/'>
+                            <img alt="Vue logo" src="../assets/footer_logo.png">
+                        </router-link>
                     </li>
                 </ul>
-                </router-link>
             </div>
             <div class="navi-wrap">
                 <ul class="navi">
@@ -59,14 +56,13 @@
 
 <style scoped>
     .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4;}
-    .footer {position:relative;display:block;width: 1400px;height: 200px;margin: 0 auto;}
+    .footer {position:relative;display:block;width: 1400px;height: 100%;margin: 0 auto;}
 
-    .footer .logo_wrap {position:relative;top:0;left:0;display:block;width: 100%; z-index: 600;}
+    .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 600;}
 
     .footer .logo_wrap .logo {display: block;text-align: center; float: left; margin: 0; position: relative;}
     .footer .logo_wrap .logo li {position: relative;display: inline-block;vertical-align:middle;padding: 0 8px;}
     .footer .logo_wrap .logo li.logo_img img {display: block; width:321px; height: 317px; margin:22px 0 0 0;}
-    .footer .logo_wrap .logo li.logo_txt div {display: block;color:#808080;font-size:20px;line-height:80px;}
 
     .footer .navi-wrap {position:relative;top:0;left:0;display:block;width: 100%;}
 
@@ -75,11 +71,34 @@
     .footer .navi li.nm-mn1 a {position: relative;display:block;color:#808080;font-size:18px;font-weight: 600;line-height:80px;height: 80px;text-align: center; text-decoration: none;}
     .footer .navi li.nm-mn1 .router-link-active {color:#4285f4}
 
-    .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
+    .footer .foot_copy_wrap {width: 100%; float:left; margin-top: 20px;}
     .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
 
-    @media (min-width: 481px) and (max-width: 767px) {
-        .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4; overflow-x: scroll; overflow-y: hidden; -ms-overflow-style: none;}
-        .container_wrap::-webkit-scrollbar{display: none;}
+    @media screen and (max-width: 767px) {
+       .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 294px;display: block;background: #f4f4f4;}
+       .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}
+        
+       .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 1; width: 100%; height: 90%;}
+       .footer .logo_wrap .logo {display: block;text-align: center; margin: 0; position: relative; float:none; padding: 0;}
+       .footer .logo_wrap .logo li.logo_img img {display: block; width:221px; height: 217px; margin:22px 0 0 0;}
+
+       .footer .navi-wrap {display: none;}
+
+       .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
+       .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 12px;}
+    }
+
+    @media screen and (max-width: 481px) {
+       .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 294px;display: block;background: #f4f4f4;}
+       .footer {position:relative;display:block;max-width: 360px;height: 100%;margin: 0 auto;}
+        
+       .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 1; width: 100%; height: 90%;}
+       .footer .logo_wrap .logo {display: block;text-align: center; margin: 0; position: relative; float:none; padding: 0;}
+       .footer .logo_wrap .logo li.logo_img img {display: block; width:221px; height: 217px; margin:22px 0 0 0;}
+
+       .footer .navi-wrap {display: none;}
+
+       .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
+       .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 12px;}
     }
 </style>
