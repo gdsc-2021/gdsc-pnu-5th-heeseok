@@ -182,9 +182,9 @@ export default {
       .container_wrap .contents_wrap .box_wrap .box_group01 {display: flex; justify-content: flex-start;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper {position: relative; display: inline-block;margin-left: 25px; margin-top: 125px; border: 1px solid #868894; border-radius: 10px; width:175px; height: 65px;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox {display: none;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label {display: inline-flex; width: 135px; height: 60px; justify-content: space-between; align-items: center; cursor: pointer;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label span {font-family: AppleSDGothicNeo;font-size: 18px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #000;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label .menu-icon-svg {margin-top: 7.5px; width: 15px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label {display: inline-flex; width: 145px; height: 60px; justify-content: space-between; align-items: center; cursor: pointer;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label span {font-family: AppleSDGothicNeo;font-size: 18px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #000; margin-top: 2.5px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label .menu-icon-svg {margin-top: 6.5px; width: 15px;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox:checked+.fixed-label .menu-icon-svg {transform: rotate(180deg);}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox:checked~.fixed-menu-ul {display: block; opacity: 1;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul {list-style-type: none; display: none; position: absolute; width: 190px; height: 180px; margin-top:0px; padding: 0px; background: #2c2c2c; box-sizing: border-box; overflow-y: scroll;}
@@ -193,7 +193,7 @@ export default {
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul li .menu-anchor {display: inline-block; text-decoration: none; color: #fff; cursor: pointer; font-family: AppleSDGothicNeo; font-size: 15px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; padding: 10px 42.5px;}
 
       /* 커스텀 스크롤바 */
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar {width:12px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar {width:7.5px;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar-track {background-color: inherit;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar-thumb {background: #868686; border-radius: 5px;}
 
@@ -220,15 +220,15 @@ export default {
   /* 휴대폰 화면 CSS */
   @media screen and (max-width: 481px) {
       .container_wrap {position: relative;display: block; overflow: hidden;background-color: #f8f8f8;}
-      .container_wrap .contents_wrap {position: relative;display: block; background-color: #fff; margin: 73px auto 0 auto; max-width: 360px;}
+      .container_wrap .contents_wrap {position: relative;display: block; background-color: #fff; margin: 0px auto 0 auto; max-width: 360px;}
       .container_wrap .contents_wrap .box_wrap {max-width: 360px; margin: inherit;}
 
       .container_wrap .contents_wrap .box_wrap .box_group01 {display: flex; justify-content: flex-start;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper {position: relative; display: inline-block;margin-left: 25px; margin-top: 85px; border: 1px solid #868894; border-radius: 10px; width:175px; height: 65px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper {position: relative; display: inline-block;margin-left: 25px; margin-top: 125px; border: 1px solid #868894; border-radius: 10px; width:175px; height: 65px;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox {display: none;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label {display: inline-flex; width: 135px; height: 60px; justify-content: space-between; align-items: center; cursor: pointer;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label span {font-family: AppleSDGothicNeo;font-size: 18px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #000;}
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label .menu-icon-svg {margin-top: 7.5px; width: 15px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label {display: inline-flex; width: 145px;; height: 60px; justify-content: space-between; align-items: center; cursor: pointer;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label span {font-family: AppleSDGothicNeo;font-size: 18px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #000; margin-top: 5px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-label .menu-icon-svg {margin-top: 5.5px; width: 15px;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox:checked+.fixed-label .menu-icon-svg {transform: rotate(180deg);}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-checkbox:checked~.fixed-menu-ul {display: block; opacity: 1;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul {list-style-type: none; display: none; position: absolute; width: 190px; height: 180px; margin-top:0px; padding: 0px; background: #2c2c2c; box-sizing: border-box; overflow-y: scroll;}
@@ -237,7 +237,7 @@ export default {
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul li .menu-anchor {display: inline-block; text-decoration: none; color: #fff; cursor: pointer; font-family: AppleSDGothicNeo; font-size: 15px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; padding: 10px 42.5px;}
 
       /* 커스텀 스크롤바 */
-      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar {width:12px;}
+      .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar {width:7.5px;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar-track {background-color: inherit;}
       .container_wrap .contents_wrap .box_wrap .box_group01 .fixed-nth-wrapper .fixed-menu-ul::-webkit-scrollbar-thumb {background: #868686; border-radius: 5px;}
 
