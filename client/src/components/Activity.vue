@@ -173,6 +173,31 @@ export default {
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
+  /* tablet css */
+  @media screen and (max-width: 1400px) {
+    .contents_wrap {position: relative;display: block;max-width: 767px; height: 4292px; margin:0 auto; }
+
+    
+    .introduction_wrap .introduction {padding-top: 157px; padding-left: 134px; text-align: left; padding-bottom: 80px; padding-right: 134px;}
+    .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 40px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
+    .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 24px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
+    
+    .contents_wrap .box_wrap .box_group01 {width:100%; height: 463px; display: block; margin-top: 138px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 555px; height: 257px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 555px; height: 257px;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 555px; text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+    .contents_wrap .box_wrap .box_group02 {width:100%; height: 463px; display: block; margin-top: 152px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 560px; height: 257px; text-align: right; margin-top: 75px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 560px; height: 257px;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 560px; text-align: left; margin-right: 0px; height: 150px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+  }
+
   @media screen and (max-width: 767px) {
     .contents_wrap {position: relative;display: block;max-width: 481px; height: 2842px; margin:0 auto; }
 

@@ -72,6 +72,23 @@ export default {
     .container_wrap .deco_img02 {display: none;}
   }
 
+  @media screen and (max-width: 1400px) { 
+    .contents_wrap {position: relative;display: block; max-width: 767px;height: 888.8px;margin:91px auto 0 auto;}
+    .contents_wrap .box_wrap {display: block; padding-top: 181.2px; height: 335.3px;}
+    .contents_wrap .box_wrap .box_logo_wrap {width: 345px; height: 207.5px; overflow: hidden; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_logo_wrap img {width: 345px; height: 207.5px;}
+    
+    .contents_wrap .box_wrap .box_text_wrap {margin-top:64px; width: 767px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_text_wrap .box-title {height: 120px;}
+    .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-family: AppleSDGothicNeo; font-size: 30px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router {height:calc(100% - 120px - 31.3px);}
+    .contents_wrap .box_wrap .box_text_wrap .box-router a{color:#2e2d2d; text-decoration: none;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:27px;float:right;margin:7.5px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin: 15.5px 15px 0 0;}
+
+    .contents_wrap .box_wrap .box_text_wrap .box-line {width:100%; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070; margin-top: 65px;}
+  }
+
   @media screen and (max-width: 767px) { 
     .contents_wrap {position: relative;display: block; max-width: 481px;height: 888.8px;margin:91px auto 0 auto;}
     .contents_wrap .box_wrap {display: block; padding-top: 181.2px; height: 335.3px;}
@@ -80,11 +97,11 @@ export default {
     
     .contents_wrap .box_wrap .box_text_wrap {margin-top:64px; width: 481px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_text_wrap .box-title {height: 100px;}
-    .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-family: AppleSDGothicNeo; font-size: 20px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center;}
+    .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-family: AppleSDGothicNeo; font-size: 24px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center;}
     .contents_wrap .box_wrap .box_text_wrap .box-router {height:calc(100% - 120px - 31.3px);}
     .contents_wrap .box_wrap .box_text_wrap .box-router a{color:#2e2d2d; text-decoration: none;}
     .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:25px;float:right;margin:0px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin: 7.5px 75px 0 0;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin: 7.5px 15px 0 0;}
 
     .contents_wrap .box_wrap .box_text_wrap .box-line {width:100%; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070; margin-top: 55px;}
   }
@@ -95,13 +112,13 @@ export default {
     .contents_wrap .box_wrap .box_logo_wrap {width: 245px; height: 127.5px; overflow: hidden; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_logo_wrap img {width: 245px; height: 127.5px;}
     
-    .contents_wrap .box_wrap .box_text_wrap {margin-top:64px; width: 365px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_text_wrap {margin-top:64px; width: 300px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_text_wrap .box-title {height: 100px;}
     .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-family: AppleSDGothicNeo; font-size: 20px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center;}
     .contents_wrap .box_wrap .box_text_wrap .box-router {height:calc(100% - 120px - 31.3px);}
     .contents_wrap .box_wrap .box_text_wrap .box-router a{color:#2e2d2d; text-decoration: none;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:25px;float:right;margin:0px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin: 7.5px 25px 0 0;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:22px;float:right;margin:10px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin: 11px 0px 0 0;}
 
     .contents_wrap .box_wrap .box_text_wrap .box-line {width:100%; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070; margin-top: 55px;}
   }
