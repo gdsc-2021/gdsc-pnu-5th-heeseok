@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <router-link v-if="width > 1200" class="logo" to='/'>Google Developer Students Club Pusan National Univ</router-link>
-        <router-link v-else to='/' class="logo">GDSC PNU {{width}}</router-link>
+        <router-link v-else to='/' class="logo">GDSC PNU</router-link>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
