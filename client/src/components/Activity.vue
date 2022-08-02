@@ -150,6 +150,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  /* 전체화면 */
   .container_wrap {position: relative;display: block; overflow: hidden; }
 
   .introduction_wrap {background-color: #f0f0f0;}
@@ -173,11 +174,10 @@ export default {
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
-  /* tablet css */
+  /* 태블릿, 패드 CSS */
   @media screen and (max-width: 1400px) {
     .contents_wrap {position: relative;display: block;max-width: 767px; height: 4292px; margin:0 auto; }
 
-    
     .introduction_wrap .introduction {padding-top: 157px; padding-left: 134px; text-align: left; padding-bottom: 80px; padding-right: 134px;}
     .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 40px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
     .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 24px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
@@ -195,12 +195,11 @@ export default {
     .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 560px; text-align: left; margin-right: 0px; height: 150px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
     .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
-
   }
 
+  /* 휴대폰 가로 화면 CSS */
   @media screen and (max-width: 767px) {
     .contents_wrap {position: relative;display: block;max-width: 481px; height: 2842px; margin:0 auto; }
-
     
     .introduction_wrap .introduction {padding-top: 157px; padding-left: 134px; text-align: left; padding-bottom: 80px; padding-right: 134px;}
     .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 28px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
@@ -219,16 +218,15 @@ export default {
     .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 320px; text-align: left; margin-right: 0px; height: 150px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
     .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
-
   }
 
+  /* 휴대폰 세로 화면 CSS */
   @media screen and (max-width: 481px) {
     .contents_wrap {position: relative;display: block;max-width: 365px; height: 2842px; margin:0 auto; }
     
     .introduction_wrap .introduction {padding-top: 157px; padding-left: 25px; padding-right: 25px; text-align: left; padding-bottom: 80px;}
     .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 28px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #4887ff;}
     .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 17px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #5c5c5c;}
-  
   }
 
 </style>

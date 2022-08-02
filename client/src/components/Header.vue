@@ -56,6 +56,7 @@
 </script>
 
 <style scoped>
+    /* 반응형 Header */
     .header {background-color: #fff;box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);position: fixed;width: 100%;z-index: 3;}
 
     .header ul {margin: 0;padding: 0;list-style: none;overflow: hidden;background-color: #fff;}
@@ -87,7 +88,7 @@
     .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
     .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {top: 0;}
 
-
+    /* 900px을 기점으로 Header 변화 */
     @media (min-width: 900px) {
         .header li {float: left;}
         .header li a {padding: 18px 30px;}
