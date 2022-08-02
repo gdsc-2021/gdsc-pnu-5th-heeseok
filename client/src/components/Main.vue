@@ -100,8 +100,8 @@ export default {
     .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-family: AppleSDGothicNeo; font-size: 24px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center;}
     .contents_wrap .box_wrap .box_text_wrap .box-router {height:calc(100% - 120px - 31.3px);}
     .contents_wrap .box_wrap .box_text_wrap .box-router a{color:#2e2d2d; text-decoration: none;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:25px;float:right;margin:0px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:29px; margin: 8px 15px 0 0;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router p{font-size:25px;float:right;margin:0px 10px 0 0; text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-family: AppleSDGothicNeo; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: normal; }
+    .contents_wrap .box_wrap .box_text_wrap .box-router img{float:right; width:45px; height:33px; margin: 8px 15px 0 0;}
 
     .contents_wrap .box_wrap .box_text_wrap .box-line {width:100%; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070; margin-top: 55px;}
   }
