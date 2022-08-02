@@ -130,6 +130,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  /* 전체화면 */
   .container_wrap {position: relative;display: block; overflow: hidden;background-color: #f8f8f8;}
   .container_wrap .contents_wrap {position: relative;display: block; width: 1542px; /* height:2934px; */ background-color: #fff; margin: 0px auto 0 auto;}
   .container_wrap .contents_wrap .box_wrap {width: 1400px; /* height:2934px; */ margin: inherit; }
@@ -174,7 +175,7 @@ export default {
   .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-bottom .profile-info-tag .tag span {font-family: AppleSDGothicNeo;font-size: 15px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #fff;}
 
 
-  /* tablet css */
+  /* 태블릿, 패드 CSS */
   @media screen and (max-width: 1400px) {
     .container_wrap {position: relative;display: block; overflow: hidden;background-color: #f8f8f8;}
     .container_wrap .contents_wrap {position: relative;display: block; width: 767px; /* height:2934px; */ background-color: #fff; margin: 0px auto 0 auto;}
@@ -221,7 +222,7 @@ export default {
 
   }
 
-  /* 휴대폰 가로화면 CSS */
+  /* 휴대폰 가로 화면 CSS */
   @media screen and (max-width: 767px) {
       .container_wrap {position: relative;display: block; overflow: hidden;background-color: #f8f8f8;}
       .container_wrap .contents_wrap {position: relative;display: block; background-color: #fff; margin: 0px auto 0 auto; max-width: 481px;}
@@ -265,7 +266,7 @@ export default {
       .container_wrap .contents_wrap .box_wrap .box_group02 .box_group02_inner_wrap .box_group02_card_wrap .box-group02-card .box-group02-card-bottom .profile-info-tag .tag span {font-family: AppleSDGothicNeo;font-size: 12px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #fff;}
   }
 
-  /* 휴대폰 화면 CSS */
+  /* 휴대폰 세로 화면 CSS */
   @media screen and (max-width: 481px) {
       .container_wrap {position: relative;display: block; overflow: hidden;background-color: #f8f8f8;}
       .container_wrap .contents_wrap {position: relative;display: block; background-color: #fff; margin: 0px auto 0 auto; max-width: 360px;}
