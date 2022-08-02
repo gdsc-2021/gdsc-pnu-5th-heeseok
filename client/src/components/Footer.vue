@@ -74,6 +74,20 @@
     .footer .foot_copy_wrap {width: 100%; float:left; margin-top: 20px;}
     .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
 
+    @media screen and (max-width: 1080px) {
+       .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4;}
+       .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}
+        
+       .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 1; width: 100%; height: 90%;}
+       .footer .logo_wrap .logo {display: block;text-align: center; margin: 0; position: relative; float:none; padding: 0;}
+       .footer .logo_wrap .logo li.logo_img img {display: block; width:321px; height: 317px; margin:22px 0 0 0;}
+
+       .footer .navi-wrap {display: none;}
+
+       .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
+       .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 13px;}
+    }
+
     @media screen and (max-width: 767px) {
        .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 294px;display: block;background: #f4f4f4;}
        .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}

@@ -123,6 +123,34 @@ export default {
   .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
+  /* 태블릿 CSS */
+  @media screen and (max-width: 1400px) { 
+  .contents_wrap {position: relative;display: block;max-width: 767px; height: 2182px; margin:91px auto 0 auto; }
+  .contents_wrap .box_wrap {height: 100%;}
+
+  .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px; display: block; margin-top: 228px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 555px; height: 263px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 555px; height: 263px;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 555px; text-align: left; margin-top: 40px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+  .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; display: block; margin-top: 500px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 555px; height: 263px; text-align: right; margin-top: 155px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 555px; height: 263px;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 555px; text-align: left; margin-right: 0px; height: 140px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+  .contents_wrap .box_wrap .box_group03 {width: 100%; height: 227.5px; display: block; margin-top: 487.3px;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-img {width: 405px; height: 227.5px; text-align: left; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-img img {width: 405px; height: 227.5px;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-text {width: 555px; text-align: left; margin-left: auto; margin-right: auto; margin-top: 50px;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+
+  }
+
   /* 휴대폰 가로화면 CSS */
   @media screen and (max-width: 767px) { 
   .contents_wrap {position: relative;display: block;max-width: 481px; height: 1582px; margin:91px auto 0 auto; }
@@ -131,7 +159,7 @@ export default {
   .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px; display: block; margin-top: 228px; margin-left: auto; margin-right: auto;}
   .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 320px; height: 153px; margin-left: auto; margin-right: auto;}
   .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 320px; height: 153px;}
-  .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 320px; text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 320px; text-align: left; margin-top: 30px; margin-left: auto; margin-right: auto;}
   .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
@@ -145,7 +173,7 @@ export default {
   .contents_wrap .box_wrap .box_group03 {width: 100%; height: 227.5px; display: block; margin-top: 257.3px;}
   .contents_wrap .box_wrap .box_group03 .box-group03-img {width: 320px; height: 173px; text-align: left; margin-left: auto; margin-right: auto;}
   .contents_wrap .box_wrap .box_group03 .box-group03-img img {width: 320px; height: 173px;}
-  .contents_wrap .box_wrap .box_group03 .box-group03-text {width: 320px; text-align: left; margin-left: auto; margin-right: auto; margin-top: 20px;}
+  .contents_wrap .box_wrap .box_group03 .box-group03-text {width: 320px; text-align: left; margin-left: auto; margin-right: auto; margin-top: 40px;}
   .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
   .contents_wrap .box_wrap .box_group03 .box-group03-text .box-group03-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
@@ -154,5 +182,7 @@ export default {
   /* 휴대폰 화면 CSS */
   @media screen and (max-width: 481px) { 
     .contents_wrap {position: relative;display: block;max-width: 365px; height: 1582px; margin:91px auto 0 auto; }
+    .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 320px; height: 153px; text-align: right; margin-top: 0px; margin-left: auto; margin-right: auto;}
+
   }
 </style>
