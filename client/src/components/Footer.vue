@@ -76,7 +76,7 @@
   .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
 
   /* 태블릿, 패드 CSS */
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 1400px) {
     .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4;}
     .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}
     
