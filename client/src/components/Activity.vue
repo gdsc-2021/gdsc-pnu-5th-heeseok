@@ -155,69 +155,64 @@ export default {
 
   .introduction_wrap {background-color: #f0f0f0;}
   .introduction_wrap .introduction {padding-top: 207px; padding-left: 134px; text-align: left; padding-bottom: 100px; padding-right: 134px;}
-  .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 50px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
-  .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 30px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
-  
+  .introduction_wrap .introduction .introduction-title {font-size: 50px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
+  .introduction_wrap .introduction .introduction-comment {margin-top: 34px;font-size: 30px;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
+
   .contents_wrap {position: relative;display: block;width: 1400px; height: 2842px; margin:0 auto; }
   .contents_wrap .box_wrap {height: 100%;}
 
   .contents_wrap .box_wrap .box_group01 {width:100%; height: 257px; display: flex; justify-content: space-between; margin-top: 138px;}
   .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 555px; height: 257px;}
   .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 817px; height: 257px; text-align: left; margin-left:67px;}
-  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
-  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
   .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; display: flex; justify-content: space-between; margin-top: 165px;}
   .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 560px; height: 257px; text-align: right;}
   .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 560px; height: 257px;}
   .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 815px; height: 257px; text-align: left; margin-right:67px;}
-  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
-  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
+  .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
 
   /* 태블릿, 패드 CSS */
   @media screen and (max-width: 1400px) {
     .contents_wrap {position: relative;display: block;max-width: 767px; height: 4292px; margin:0 auto; }
 
     .introduction_wrap .introduction {padding-top: 157px; padding-left: 134px; text-align: left; padding-bottom: 80px; padding-right: 134px;}
-    .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 40px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
-    .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 24px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
+    .introduction_wrap .introduction .introduction-title {font-size: 40px;}
+    .introduction_wrap .introduction .introduction-comment {font-size: 24px;}
     
     .contents_wrap .box_wrap .box_group01 {width:100%; height: 463px; display: block; margin-top: 138px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 555px; height: 257px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 555px; height: 257px;}
     .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 555px; text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;}
-    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
-    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
-
+    
     .contents_wrap .box_wrap .box_group02 {width:100%; height: 463px; display: block; margin-top: 152px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 560px; height: 257px; text-align: right; margin-top: 75px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 560px; height: 257px;}
     .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 560px; text-align: left; margin-right: 0px; height: 150px; margin-left: auto; margin-right: auto;}
-    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 25px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
-    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
   }
 
   /* 휴대폰 가로 화면 CSS */
   @media screen and (max-width: 767px) {
     .contents_wrap {position: relative;display: block;max-width: 481px; height: 2842px; margin:0 auto; }
     
-    .introduction_wrap .introduction {padding-top: 157px; padding-left: 134px; text-align: left; padding-bottom: 80px; padding-right: 134px;}
-    .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 28px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #4887ff;}
-    .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 17px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #5c5c5c;}
+    .introduction_wrap .introduction .introduction-title {font-size: 28px; text-align: center;}
+    .introduction_wrap .introduction .introduction-comment {font-size: 17px; text-align: center;}
     
-    .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px; display: block; margin-top: 138px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group01 {width:100%; height: 263px;}
     .contents_wrap .box_wrap .box_group01 .box-group01-img {width: 320px; height: 153px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group01 .box-group01-img img {width: 320px; height: 153px;}
-    .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 320px; text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;}
-    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
-    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text {width: 320px;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-title {font-size: 18px;}
+    .contents_wrap .box_wrap .box_group01 .box-group01-text .box-group01-text-mtext {font-size: 12px;}
 
-    .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; display: block; margin-top: 142px; margin-left: auto; margin-right: auto;}
+    .contents_wrap .box_wrap .box_group02 {width:100%; height: 257px; margin-top: 142px}
     .contents_wrap .box_wrap .box_group02 .box-group02-img {width: 320px; height: 153px; text-align: right; margin-top: 20px; margin-left: auto; margin-right: auto;}
     .contents_wrap .box_wrap .box_group02 .box-group02-img img {width: 320px; height: 153px;}
-    .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 320px; text-align: left; margin-right: 0px; height: 150px; margin-left: auto; margin-right: auto;}
-    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-family: AppleSDGothicNeo; font-size: 18px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #000;}
-    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-family: AppleSDGothicNeo; font-size: 12px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #5c5c5c;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text {width: 320px;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-title {font-size: 18px;}
+    .contents_wrap .box_wrap .box_group02 .box-group02-text .box-group02-text-mtext {font-size: 12px;}
   }
 
   /* 휴대폰 세로 화면 CSS */
@@ -225,8 +220,6 @@ export default {
     .contents_wrap {position: relative;display: block;max-width: 365px; height: 2842px; margin:0 auto; }
     
     .introduction_wrap .introduction {padding-top: 157px; padding-left: 25px; padding-right: 25px; text-align: left; padding-bottom: 80px;}
-    .introduction_wrap .introduction .introduction-title {font-family: AppleSDGothicNeo;font-size: 28px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #4887ff;}
-    .introduction_wrap .introduction .introduction-comment {margin-top: 34px; font-family: AppleSDGothicNeo;font-size: 17px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #5c5c5c;}
   }
 
 </style>
