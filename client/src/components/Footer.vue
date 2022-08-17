@@ -75,48 +75,32 @@
   .footer .foot_copy_wrap {width: 100%; float:left; margin-top: 20px;}
   .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
 
-  /* 태블릿, 패드 CSS */
   @media screen and (max-width: 1400px) {
-    .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4;}
-    .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}
+    .footer {max-width: 481px;}
     
-    .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 1; width: 100%; height: 90%;}
-    .footer .logo_wrap .logo {display: block;text-align: center; margin: 0; position: relative; float:none; padding: 0;}
-    .footer .logo_wrap .logo li.logo_img img {display: block; width:321px; height: 317px; margin:22px 0 0 0;}
+    .footer .logo_wrap {z-index: 1; width: 100%; height: 90%;}
+    .footer .logo_wrap .logo {float:none; padding: 0;}
 
     .footer .navi-wrap {display: none;}
 
-    .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
-    .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 13px;}
+    .footer .foot_copy_wrap {margin:0;}
+    .footer .foot_copy_wrap .foot_copy {font-size: 13px;}
   }
 
   /* 휴대폰 가로 화면 CSS */
   @media screen and (max-width: 767px) {
-    .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 294px;display: block;background: #f4f4f4;}
+    .footer_wrap {width: 100%;height: 294px;}
     .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}
     
-    .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 1; width: 100%; height: 90%;}
-    .footer .logo_wrap .logo {display: block;text-align: center; margin: 0; position: relative; float:none; padding: 0;}
-    .footer .logo_wrap .logo li.logo_img img {display: block; width:221px; height: 217px; margin:22px 0 0 0;}
+    .footer .logo_wrap .logo li.logo_img img {width:221px; height: 217px; margin:22px 0 0 0;}
 
-    .footer .navi-wrap {display: none;}
-
-    .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
-    .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 12px;}
+    .footer .foot_copy_wrap .foot_copy {font-size: 12px;}
   }
 
   /* 휴대폰 세로 화면 CSS */
   @media screen and (max-width: 481px) {
-    .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 294px;display: block;background: #f4f4f4;}
-    .footer {position:relative;display:block;max-width: 360px;height: 100%;margin: 0 auto;}
-    
-    .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 1; width: 100%; height: 90%;}
-    .footer .logo_wrap .logo {display: block;text-align: center; margin: 0; position: relative; float:none; padding: 0;}
-    .footer .logo_wrap .logo li.logo_img img {display: block; width:221px; height: 217px; margin:22px 0 0 0;}
+    .footer {max-width: 360px; height: 100%;}
 
-    .footer .navi-wrap {display: none;}
-
-    .footer .foot_copy_wrap {width: 100%; float:left; margin:0;}
-    .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 12px;}
+    .footer .logo_wrap .logo li.logo_img img {width:221px; height: 217px; margin:22px 0 0 0;}
   }
 </style>
