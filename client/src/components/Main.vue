@@ -68,7 +68,7 @@ export default {
   .contents_wrap .box_wrap .box_text_wrap .box-router a{color:#2e2d2d; text-decoration: none;}
   .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap {display: flex; justify-content: center; align-items: center;}
   .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap .router_text{font-size:35px;text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16); font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left;}
-  .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{ width:45px; height:36px; margin: 15px 0px 0px 10px;}
+  .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{ width:45px; height:36px; margin: 12px 0px 0px 10px;}
 
   .contents_wrap .box_wrap .box_text_wrap .box-line {width:1224.5px; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070;}
 
@@ -90,7 +90,7 @@ export default {
     
     .contents_wrap .box_wrap .box_text_wrap .box-router {height: 25px;}
     .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap .router_text{font-size:32px;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{ width:45px; height:33px; margin: 15px 0px 0px 10px;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{ width:45px; height:33px; margin: 12px 0px 0px 10px;}
 
     .contents_wrap .box_wrap .box_text_wrap .box-line {width:100%; height: 2px; box-shadow: 20px 20px 6px 0 rgba(11, 11, 11, 0.16);background-color: #707070; margin-top: 65px;}
   }
@@ -107,7 +107,7 @@ export default {
     
     .contents_wrap .box_wrap .box_text_wrap .box-router {height:0px;}
     .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap .router_text{font-size:25px;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{height:30px; margin: 12px 0px 0px 10px;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{height:30px; margin: 8px 0px 0px 10px;}
   }
 
   /* 휴대폰 세로 화면 CSS */
@@ -118,6 +118,6 @@ export default {
     .contents_wrap .box_wrap .box_text_wrap .box-title h1 {font-size: 20px;}
 
     .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap .router_text{font-size:22px;}
-    .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{height:28px; margin: 10px 0px 0px 10px;}
+    .contents_wrap .box_wrap .box_text_wrap .box-router .router_wrap img{height:28px; margin:8px 0px 0px 10px;}
   }
 </style>
