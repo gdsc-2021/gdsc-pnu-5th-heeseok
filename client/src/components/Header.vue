@@ -3,21 +3,21 @@
         <div class="header_wrap">
             <router-link v-if="width > 1024" class="logo" to='/'>Google Developer Students Club</router-link>
             <router-link v-else to='/' class="logo">GDSC PNU</router-link>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <input class="menu-btn" type="checkbox" id="menu-btn" v-model="checked" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
                 <li>
-                    <router-link to='/Introduce'>
+                    <router-link to='/Introduce' @click="clickListener()">
                         GDSC PNU 소개
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/Member">
+                    <router-link to="/Member" @click="clickListener()">
                         구성원 소개
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/Activity">
+                    <router-link to="/Activity" @click="clickListener()">
                         활동 내용
                     </router-link>
                 </li>
@@ -32,15 +32,10 @@
 </template>
 
 <script>
-    import toParticipation from "./functions/toParticipation";
-
     export default {
         name: 'Header',
-        setup() {
-            return {toParticipation}
-        },
         data() {
-            return { width: window.innerWidth, height: window.innerHeight };
+            return { width: window.innerWidth, height: window.innerHeight, checked: false };
         },
         created() {
             window.addEventListener("resize", this.onResize);
@@ -53,6 +48,20 @@
                 this.width = window.innerWidth;
                 this.height = window.innerHeight;
             },
+            clickListener() {
+                if(this.checked) {
+                    this.checked = false;
+                }
+            },
+            toParticipation() {
+                var response = confirm("GDSC PNU 참여 신청 구글 폼으로 이동합니다.");
+                if(response) {
+                    if(this.checked) {
+                        this.checked = false;
+                    }
+                    window.open("https://forms.gle/wUjcVjQnRexZjsJD8");
+                }
+            }
         }
     }
 </script>
