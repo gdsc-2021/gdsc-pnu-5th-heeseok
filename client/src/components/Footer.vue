@@ -1,106 +1,91 @@
-<template>
-    <div class="footer_wrap">
-        <div class="footer">
-            <div class="logo_wrap">
-                <ul class="logo">
-                    <li class="logo_img">
-                        <router-link to='/'>
-                            <img alt="Vue logo" src="../assets/footer_logo.png">
-                        </router-link>
-                    </li>
-                </ul>
+<template>   
+    <div class="footer">
+        <div class="footer_wrap">
+            <div class="footer_inner_wrap">
+                <div class="logo_wrap">
+                    <router-link to='/'>
+                        <img class="logo_img" alt="Vue logo" src="../assets/footer_logo.png">
+                    </router-link>
+                </div>
+                <div class="empty_row_50"></div>
+                <div class="info_wrap">
+                    <div>
+                        <span class="text">github : </span> <span class="link_text">https://github.com/gdsc-2021/gdsc-pnu-5th-heeseok</span>
+                    </div>
+                    <div>
+                        <span class="text">e-mail : simongmltjr2022@gmail.com</span>
+                    </div>
+                    <div class="empty_col_20"></div>
+                    <div>
+                        <span class="fc_text">@ 2022 Copyrights reserved by GDSC PNU.</span>
+                    </div>
+                </div>
             </div>
-            <div class="navi-wrap">
-                <ul class="navi">
-                    <li class="nm-mn1">
-                        <router-link to='/Introduce'>
-                            GDSC PNU 소개
-                        </router-link>
-                    </li>
-                    <li class="nm-mn1">
-                        <router-link to='/Member'>
-                            구성원 소개
-                        </router-link>
-                    </li>
-                    <li class="nm-mn1">
-                        <router-link to="/Activity">
-                            활동 내용
-                        </router-link>
-                    </li>
-                    <li class="nm-mn1">
-                        <a href="javascript:;" v-on:click="toParticipation()">
-                            참여 신청
-                        </a>
-                    </li>
-                </ul>
+            <div v-if="width > 1024" class="info_wrap">
+                <div>
+                    <span class="link_text"><a href="https://sites.google.com/view/gdeveloperskorea/gdsc?pli=1" target="_blank">Google Developer</a></span>
+                </div>
+                <div>
+                    <span class="none_text">-</span>
+                </div>
+                <div class="empty_col_20"></div>
+                <div>
+                    <span class="none_text">-</span>
+                </div>
             </div>
-            <div class="foot_copy_wrap">
-                <div class="foot_copy">
-                    Copyrights reserved by Google Developer Students Clubs Pusan National Univ.
-                </div> 
+            <div v-else class="info_wrap">
+                <div>
+                    <span class="link_text"><a href="https://sites.google.com/view/gdeveloperskorea/gdsc?pli=1" target="_blank">Google Developer</a></span>
+                </div>
             </div>
         </div> 
     </div>    
 </template>
 
 <script>
-    import toParticipation from "./functions/toParticipation";
-
     export default {
         name: 'Footer',
-        setup() {
-            return {toParticipation}
+        data() {
+            return { width: window.innerWidth, height: window.innerHeight };
+        },
+        created() {
+            window.addEventListener("resize", this.onResize);
+        },
+        unmounted() {
+            window.removeEventListener("resize", this.onResize);
+        },
+        methods: {
+            onResize() {
+                this.width = window.innerWidth;
+                this.height = window.innerHeight;
+            },
         }
     }
 </script>
 
 <style scoped>
   /* 전체화면 */
-  .footer_wrap {position: relative; bottom: 0; left:0;width: 100%;height: 394px;display: block;background: #f4f4f4;}
-  .footer {position:relative;display:block;width: 1400px;height: 100%;margin: 0 auto;}
+  .footer {position: relative; bottom: 0; left:0;width: 100%; display: block;background: #f4f4f4; padding: 40px 0px;}
+  .footer_wrap {position:relative;display:flex; justify-content: space-between; max-width: 1024px; height: inherit; margin: 0 auto;}
+  .footer_inner_wrap {display: flex; justify-content: flex-start;}
 
-  .footer .logo_wrap {position:relative;top:0;left:0;display:block; z-index: 600;}
+  .footer .logo_wrap {position:relative; display:block;}
+  .footer .logo_wrap .logo_img {display: block; width:150px; height:150px;}
 
-  .footer .logo_wrap .logo {display: block;text-align: center; float: left; margin: 0; position: relative;}
-  .footer .logo_wrap .logo li {position: relative;display: inline-block;vertical-align:middle;padding: 0 8px;}
-  .footer .logo_wrap .logo li.logo_img img {display: block; width:321px; height: 317px; margin:22px 0 0 0;}
+  .empty_col_20 {height: 20px;}
+  .empty_row_50 {width: 50px;}
+  .empty {height: 0px;}
 
-  .footer .navi-wrap {position:relative;top:0;left:0;display:block;width: 100%;}
+  .info_wrap {text-align: start; display: flex; flex-direction: column; justify-content: center;}
+  .info_wrap .fc_text {font-size: 13px; color: #808080;}
+  .info_wrap .text {font-size: 15px; color: #808080;}
+  .info_wrap .link_text {font-size: 15px; color: #808080; text-decoration: underline;}
+  .info_wrap .link_text a {font-size: 15px; color: #808080; text-decoration: underline;}
+  .info_wrap .none_text {color: #f4f4f4;}
 
-  .footer .navi {display: block;text-align: center; float: right; margin:126px 0 0 0;}
-  .footer .navi li.nm-mn1 {position: relative;display: inline-block;vertical-align:top;padding: 0 20px;}
-  .footer .navi li.nm-mn1 a {position: relative;display:block;color:#808080;font-size:18px;font-weight: 600;line-height:80px;height: 80px;text-align: center; text-decoration: none;}
-  .footer .navi li.nm-mn1 .router-link-active {color:#4285f4}
-
-  .footer .foot_copy_wrap {width: 100%; float:left; margin-top: 20px;}
-  .footer .foot_copy_wrap .foot_copy {position: relative; color:#9d9d9d; font-size: 15px;}
-
-  @media screen and (max-width: 1400px) {
-    .footer {max-width: 481px;}
-    
-    .footer .logo_wrap {z-index: 1; width: 100%; height: 90%;}
-    .footer .logo_wrap .logo {float:none; padding: 0;}
-
-    .footer .navi-wrap {display: none;}
-
-    .footer .foot_copy_wrap {margin:0;}
-    .footer .foot_copy_wrap .foot_copy {font-size: 13px;}
-  }
-
-  /* 휴대폰 가로 화면 CSS */
-  @media screen and (max-width: 767px) {
-    .footer_wrap {width: 100%;height: 294px;}
-    .footer {position:relative;display:block;max-width: 481px;height: 100%;margin: 0 auto;}
-    
-    .footer .logo_wrap .logo li.logo_img img {width:221px; height: 217px; margin:22px 0 0 0;}
-
-    .footer .foot_copy_wrap .foot_copy {font-size: 12px;}
-  }
-
-  /* 휴대폰 세로 화면 CSS */
-  @media screen and (max-width: 481px) {
-    .footer {max-width: 360px; height: 100%;}
-
-    .footer .logo_wrap .logo li.logo_img img {width:221px; height: 217px; margin:22px 0 0 0;}
+  @media screen and (max-width: 1024px) {
+    .footer_wrap {display: flex; flex-direction: column; align-items: center;}
+    .footer_inner_wrap {display: flex; flex-direction: column; align-items: center;}
+    .info_wrap {text-align: center; margin-top: 20px;}
   }
 </style>

@@ -1,31 +1,33 @@
 <template>
     <header class="header">
-        <router-link v-if="width > 1400" class="logo" to='/'>Google Developer Students Club Pusan National Univ</router-link>
-        <router-link v-else to='/' class="logo">GDSC PNU</router-link>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-            <li>
-                <router-link to='/Introduce'>
-                    GDSC PNU 소개
-                </router-link>
-            </li>
-            <li>
-                <router-link to="/Member">
-                    구성원 소개
-                </router-link>
-            </li>
-            <li>
-                <router-link to="/Activity">
-                    활동 내용
-                </router-link>
-            </li>
-            <li>
-                <a href="javascript:;" v-on:click="toParticipation()">
-                    참여 신청
-                </a>
-            </li>
-        </ul>
+        <div class="header_wrap">
+            <router-link v-if="width > 1024" class="logo" to='/'>Google Developer Students Club</router-link>
+            <router-link v-else to='/' class="logo">GDSC PNU</router-link>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li>
+                    <router-link to='/Introduce'>
+                        GDSC PNU 소개
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/Member">
+                        구성원 소개
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/Activity">
+                        활동 내용
+                    </router-link>
+                </li>
+                <li>
+                    <a href="javascript:;" v-on:click="toParticipation()">
+                        참여 신청
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header> 
 </template>
 
@@ -57,14 +59,15 @@
 
 <style scoped>
     /* 반응형 Header */
-    .header {background-color: #fff;box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);position: fixed;width: 100%;z-index: 3;}
+    .header {background-color: #fff; box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); position: fixed; width: 100%; z-index: 3;}
+    .header_wrap {max-width: 1024px; margin-left: auto; margin-right: auto;}
 
     .header ul {margin: 0;padding: 0;list-style: none;overflow: hidden;background-color: #fff;}
-    .header li a {display: block;padding: 20px 20px;border-right: 1px solid #f4f4f4;color:#808080;font-size:18px;font-weight: 500;text-align: center; text-decoration: none;}
+    .header li a {display: block;padding: 20px 15px;border-right: 1px solid #f4f4f4;color:#808080;font-size:16px;font-weight: 500;text-align: center; text-decoration: none;}
     .header li a:hover,.header .menu-btn:hover {background-color: #f4f4f4; color:#4285f4}
     .router-link-active {color:#4285f4}
 
-    .header .logo {display: block;float: left;font-size: 20px;padding: 22px 20px 19px 20px;text-decoration: none; display: block;color:#808080;font-size:20px; line-height: 1; font-weight: bold; height: 100%;}
+    .header .logo {display: block;float: left;font-size: 20px;padding: 20px;text-decoration: none; display: block;color:#808080;font-size:20px; line-height: 1; font-weight: bold; height: 100%;}
 
     .header .menu {clear: both;max-height: 0;transition: max-height .2s ease-out;}
 
@@ -88,10 +91,10 @@
     .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
     .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {top: 0;}
 
-    /* 900px을 기점으로 Header 변화 */
-    @media (min-width: 900px) {
+    /* 767px을 기점으로 Header 변화 */
+    @media (min-width: 767px) {
         .header li {float: left;}
-        .header li a {padding: 18px 30px;}
+        .header li a {padding: 20px 15px;}
         .header .menu {clear: none;float: right;max-height: none;}
         .header .menu-icon {display: none;}
     }
